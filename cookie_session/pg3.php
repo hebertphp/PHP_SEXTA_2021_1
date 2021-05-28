@@ -1,7 +1,8 @@
 <?php
 include "menu.php";
-echo "Usuario: ".$_COOKIE['usuario']."<br>";
-echo "E-mail: ".$_COOKIE['email']."<br>";
+foreach($_COOKIE as $pos=>$valor){
+	echo "$pos: $valor<br>";
+}
 ?>
 </body>
 </html>

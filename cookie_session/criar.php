@@ -1,4 +1,3 @@
-
 <?php
 include "menu.php";
 if(count($_COOKIE)==0){

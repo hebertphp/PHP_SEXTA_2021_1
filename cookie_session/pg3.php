@@ -1,7 +1,7 @@
 <?php
 include "menu.php";
 echo "Usuario: ".$_COOKIE['usuario']."<br>";
-echo "Senha: ".$_COOKIE['senha']."<br>";
+echo "E-mail: ".$_COOKIE['email']."<br>";
 ?>
 </body>
 </html>
